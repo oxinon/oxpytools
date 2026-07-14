@@ -1,4 +1,4 @@
-# pytools
+# oxpytools
 
 Ten standalone terminal programs, ported from the `hmradio`, `weather`,
 `news`, `clock`, `skript`, `nettest`, `speedtest`, `tetris`, `snake`
@@ -41,7 +41,7 @@ chmod +x install.sh
 sudo ./install.sh
 ```
 
-The script copies the programs to `/opt/ox-cli/` and creates short
+The script copies the programs to `/opt/oxpytools/` and creates short
 commands in `/usr/local/bin/`, which are then available system-wide:
 
 ```bash
@@ -76,7 +76,7 @@ mdreader
 ### Try it directly without installing
 
 ```bash
-cd pytools
+cd oxpytools
 python3 weather.py
 python3 news.py
 python3 clock.py
@@ -179,5 +179,5 @@ mdreader README.md --no-browser # don't open the browser automatically
 
 ```bash
 sudo rm -f /usr/local/bin/{hmradio,weather,news,clock,skript,nettest,speedtest,tetris,snake,mdreader}
-sudo rm -rf /opt/pytools
+sudo rm -rf /opt/oxpytools
 ```
