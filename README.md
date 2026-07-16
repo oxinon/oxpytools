@@ -128,9 +128,10 @@ q          quit
 ```
 
 ### clock
-Large digital clock in the terminal:
 
 ![clock](./pictures/clock.png)
+
+Large digital clock in the terminal:
 
 ```
 12 / 2     toggle 24h / 12h display
@@ -177,9 +178,10 @@ CORS-open endpoints as the browser version (ipify, speed.cloudflare.com).
 No data is stored.
 
 ### tetris
-10×20 field, 7 classic tetrominoes, +100 points per cleared row:
 
 ![tetris](./pictures/tetris.png)
+
+10×20 field, 7 classic tetrominoes, +100 points per cleared row:
 
 ```
 ←/→        move
@@ -189,9 +191,10 @@ q          quit
 ```
 
 ### snake
-30×20 field, +10 points per apple:
 
 ![snake](./pictures/snake.png)
+
+30×20 field, +10 points per apple:
 
 ```
 ↑ ↓ ← →    direction
@@ -201,6 +204,7 @@ q          quit
 ### mdreader
 
 ![mdreader](./pictures/mdreader.png)
+![mdreader-1](./pictures/mdreader-1.png)
 
 ```bash
 mdreader README.md              # view in browser, live reload
