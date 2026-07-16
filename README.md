@@ -100,6 +100,8 @@ weather -w             # watch mode, auto-refresh every 5 min
 weather -l             # list all cities
 ```
 
+![weather](./pictures/weather.png)
+
 ### news
 ```bash
 news                   # HN front page
@@ -108,6 +110,8 @@ news -s ask            # Ask HN
 news -s show           # Show HN
 news --open 3          # open article #3 in the browser
 ```
+
+![news](./pictures/news.png)
 
 ### hmradio
 Interactive TUI:
@@ -118,6 +122,8 @@ Enter      play / stop
 q          quit
 ```
 
+![radio](./pictures/radio.png)
+
 ### clock
 Large digital clock in the terminal:
 ```
@@ -126,12 +132,17 @@ d          show/hide date
 q          quit
 ```
 
+![clock](./pictures/clock.png)
+
 ### skript
 ```bash
 skript                  # list all 26 snippets (a-z)
 skript f                # show snippet 'f' (Show Disk Usage), copy to clipboard
 skript z --run          # show + confirm before running (here: reboot!)
 ```
+
+![script](./pictures/skript.png)
+
 By default it only copies to the clipboard (via `xclip`/`xsel`/`wl-copy`,
 whichever is installed). With `--run`, the command is executed directly —
 with a confirmation prompt, and an extra warning for the three
@@ -141,6 +152,9 @@ destructive snippets (clear auth log, flush iptables, reboot).
 ```bash
 nettest
 ```
+
+![nettest](./pictures/nettest.png)
+
 Tests all four groups (Control/Data Services/Radio Streams/IP) in
 sequence and prints the same diagnosis at the end as the web terminal.
 
@@ -148,6 +162,9 @@ sequence and prints the same diagnosis at the end as the web terminal.
 ```bash
 speedtest
 ```
+
+![speedtest](./pictures/speedtest.png)
+
 Measures ping, jitter, download, and upload against the same public,
 CORS-open endpoints as the browser version (ipify, speed.cloudflare.com).
 No data is stored.
@@ -161,6 +178,8 @@ No data is stored.
 q          quit
 ```
 
+![tetris](./pictures/tetris.png)
+
 ### snake
 30×20 field, +10 points per apple:
 ```
@@ -168,12 +187,16 @@ q          quit
 q          quit
 ```
 
+![snake](./pictures/snake.png)
+
 ### mdreader
 ```bash
 mdreader README.md              # view in browser, live reload
 mdreader README.md --port 8080  # use a specific port
 mdreader README.md --no-browser # don't open the browser automatically
 ```
+
+![mdreader](./pictures/mdreader.png)
 
 ## Uninstall
 
