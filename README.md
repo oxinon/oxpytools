@@ -92,6 +92,9 @@ python3 mdreader.py README.md
 ## Usage
 
 ### weather
+
+![weather](./pictures/weather.png)
+
 ```bash
 weather                # Hamburg, current conditions
 weather tokyo          # a different city
@@ -100,9 +103,10 @@ weather -w             # watch mode, auto-refresh every 5 min
 weather -l             # list all cities
 ```
 
-![weather](./pictures/weather.png)
-
 ### news
+
+![news](./pictures/news.png)
+
 ```bash
 news                   # HN front page
 news -s newest         # newest stories
@@ -111,9 +115,10 @@ news -s show           # Show HN
 news --open 3          # open article #3 in the browser
 ```
 
-![news](./pictures/news.png)
-
 ### hmradio
+
+![radio](./pictures/hmradio.png)
+
 Interactive TUI:
 ```
 ↑ / ↓      select station
@@ -122,26 +127,26 @@ Enter      play / stop
 q          quit
 ```
 
-![radio](./pictures/radio.png)
-
 ### clock
 Large digital clock in the terminal:
+
+![clock](./pictures/clock.png)
+
 ```
 12 / 2     toggle 24h / 12h display
 d          show/hide date
 q          quit
 ```
 
-![clock](./pictures/clock.png)
-
 ### skript
+
+![script](./pictures/skript.png)
+
 ```bash
 skript                  # list all 26 snippets (a-z)
 skript f                # show snippet 'f' (Show Disk Usage), copy to clipboard
 skript z --run          # show + confirm before running (here: reboot!)
 ```
-
-![script](./pictures/skript.png)
 
 By default it only copies to the clipboard (via `xclip`/`xsel`/`wl-copy`,
 whichever is installed). With `--run`, the command is executed directly —
@@ -149,21 +154,23 @@ with a confirmation prompt, and an extra warning for the three
 destructive snippets (clear auth log, flush iptables, reboot).
 
 ### nettest
+
+![nettest](./pictures/nettest.png)
+
 ```bash
 nettest
 ```
-
-![nettest](./pictures/nettest.png)
 
 Tests all four groups (Control/Data Services/Radio Streams/IP) in
 sequence and prints the same diagnosis at the end as the web terminal.
 
 ### speedtest
+
+![speedtest](./pictures/speedtest.png)
+
 ```bash
 speedtest
 ```
-
-![speedtest](./pictures/speedtest.png)
 
 Measures ping, jitter, download, and upload against the same public,
 CORS-open endpoints as the browser version (ipify, speed.cloudflare.com).
@@ -171,6 +178,9 @@ No data is stored.
 
 ### tetris
 10×20 field, 7 classic tetrominoes, +100 points per cleared row:
+
+![tetris](./pictures/tetris.png)
+
 ```
 ←/→        move
 ↑          rotate
@@ -178,25 +188,25 @@ No data is stored.
 q          quit
 ```
 
-![tetris](./pictures/tetris.png)
-
 ### snake
 30×20 field, +10 points per apple:
+
+![snake](./pictures/snake.png)
+
 ```
 ↑ ↓ ← →    direction
 q          quit
 ```
 
-![snake](./pictures/snake.png)
-
 ### mdreader
+
+![mdreader](./pictures/mdreader.png)
+
 ```bash
 mdreader README.md              # view in browser, live reload
 mdreader README.md --port 8080  # use a specific port
 mdreader README.md --no-browser # don't open the browser automatically
 ```
-
-![mdreader](./pictures/mdreader.png)
 
 ## Uninstall
 
